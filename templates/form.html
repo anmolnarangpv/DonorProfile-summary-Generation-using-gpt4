@@ -1,0 +1,100 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div style="margin: 15%;" class="container">
+        <div class="row centered-form">
+        <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+        	<div class="panel panel-default">
+        		<div class="panel-heading">
+			    		<h3  class="panel-title">Generate Philanthrophic Summary  <small>in one click</small></h3>
+			 			</div>
+			 			<div class="panel-body">
+			    		<form role="form" action="http://localhost:5000/api/openai" method="post">
+			    			<div class="row">
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			                <input type="text" name="firstName" id="firstName" class="form-control input-sm" placeholder="First Name">
+			    					</div>
+			    				</div>
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			    						<input type="text" name="lastName" id="lastName" class="form-control input-sm" placeholder="Last Name">
+			    					</div>
+			    				</div>
+			    			</div>
+                            <div class="row">
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			                <input type="text" name="middleName" id="middleName" class="form-control input-sm" placeholder="Middle Name">
+			    					</div>
+			    				</div>
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			    						<input type="text" name="homeZip" id="homeZip" class="form-control input-sm" placeholder="Home Zip">
+			    					</div>
+			    				</div>
+			    			</div>
+
+                            <div class="row">
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			                <input type="text" name="homeStreetAddress" id="homeStreetAddress" class="form-control input-sm" placeholder="homeStreetAddress">
+			    					</div>
+			    				</div>
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			    						<input type="text" name="homeStreetAddress2" id="homeStreetAddress2" class="form-control input-sm" placeholder="homeStreetAddress2">
+			    					</div>
+			    				</div>
+			    			</div>
+
+			    			
+
+			    			<div class="row">
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			    						<input  name="homeState" id="homeState" class="form-control input-sm" placeholder="Home State">
+			    					</div>
+			    				</div>
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			    						<input  name="homeCity" id="homeCity" class="form-control input-sm" placeholder="Home City">
+			    					</div>
+			    				</div>
+			    			</div>
+
+                            <div class="row">
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			    						<input  name="spouseLast" id="spouseLast" class="form-control input-sm" placeholder="Spouse Last Name">
+			    					</div>
+			    				</div>
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			    						<input  name="spouseFirst" id="spouseFirst" class="form-control input-sm" placeholder="spouseFirst">
+			    					</div>
+			    				</div>
+			    			</div>
+                            <div class="row">
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			    						<input  name="spouseMiddle" id="spouseMiddle" class="form-control input-sm" placeholder="Spouse Middle Name">
+			    					</div>
+			    				</div>
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			    						<input  name="ClientId" id="ClientId" class="form-control input-sm" placeholder="ClientId">
+			    					</div>
+			    				</div>
+			    			</div>
+			    			
+			    			<input type="submit" value="Generate" class="btn btn-info btn-block">
+			    		
+			    		</form>
+			    	</div>
+	    		</div>
+    		</div>
+    	</div>
+    </div>
